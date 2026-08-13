@@ -14,7 +14,7 @@ This portfolio highlights my work in:
 - 👁️ Computer Vision
 - 🌐 Modern Web Development
 
-It features a modern UI with smooth animations, responsive design, and an interactive Three.js hero section.
+It features a modern UI with smooth animations, responsive design, and an interactive Three.js  section.
 
 ---
 
