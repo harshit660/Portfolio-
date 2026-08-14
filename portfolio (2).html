@@ -4,11 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="dark">
-<title>Harshit Gautam — Software Engineer &amp; AI Engineer</title>
-<meta name="description" content="Portfolio of Harshit Gautam — Software Engineer, AI Engineer and Unity Developer building AI-powered applications, computer vision tools and interactive experiences.">
+<title>Harshit Gautam — Software Engineer | Python</title>
+<meta name="description" content="Portfolio of Harshit Gautam — Software Engineer focused on Python, REST APIs, backend development and AI-powered applications.">
 <meta name="author" content="Harshit Gautam">
-<meta property="og:title" content="Harshit Gautam — Software Engineer & AI Engineer">
-<meta property="og:description" content="AI-powered applications, computer vision and interactive experiences.">
+<meta property="og:title" content="Harshit Gautam — Software Engineer | Python">
+<meta property="og:description" content="Software development, AI-powered applications, REST APIs, backend systems and computer vision projects.">
 <meta property="og:type" content="website">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Crect%20width='100'%20height='100'%20rx='22'%20fill='%230a0a12'/%3E%3Ctext%20x='50'%20y='70'%20font-size='54'%20font-family='monospace'%20font-weight='700'%20fill='%23a855f7'%20text-anchor='middle'%3EH%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -152,7 +152,7 @@
     width:0;max-width:100%;
     animation:typing 1.7s steps(53,end) .75s forwards, caretBlink .75s step-end infinite .75s;
   }
-  @keyframes typing{to{width:53ch;}}
+  @keyframes typing{to{width:38ch;}}
   @keyframes caretBlink{50%{border-color:transparent;}}
   @keyframes fadeIn{to{opacity:1;}}
   .hero-tagline{font-family:var(--font-body);color:var(--text-dim);font-size:1.06rem;max-width:56ch;margin-top:26px;opacity:0;animation:fadeUp .8s var(--ease) forwards .95s;}
@@ -192,6 +192,10 @@
   @media(max-width:980px){.projects-grid{grid-template-columns:repeat(2,1fr);}}
   @media(max-width:640px){.projects-grid{grid-template-columns:1fr;}}
   .project-card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:26px;transition:transform .35s var(--ease),border-color .35s var(--ease),background .35s var(--ease);}
+  .project-card.priority-project{grid-column:span 2;border-color:var(--border-strong);background:linear-gradient(145deg,rgba(168,85,247,.12),var(--surface));box-shadow:0 18px 50px rgba(124,58,237,.12);}
+  .project-card.priority-project h3{font-size:1.35rem;}
+  .priority-badge{display:inline-flex;align-items:center;padding:5px 10px;border-radius:999px;background:linear-gradient(120deg,var(--accent),var(--accent-2));color:#fff;font-family:var(--font-mono);font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;}
+  @media(max-width:640px){.project-card.priority-project{grid-column:auto;}}
   .project-card:hover{transform:translateY(-6px);border-color:var(--border-strong);background:var(--surface-hover);}
   .project-card-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px;}
   .file-tab{display:inline-flex;align-items:center;padding:4px 10px;border-radius:6px;background:rgba(168,85,247,.1);border:1px solid rgba(168,85,247,.25);font-family:var(--font-mono);font-size:.74rem;color:var(--accent);}
@@ -266,6 +270,7 @@
       <li><a href="#skills" class="nav-link">Skills</a></li>
       <li><a href="#projects" class="nav-link">Projects</a></li>
       <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
       <li><a href="#contact" class="nav-link">Contact</a></li>
     </ul>
   </div>
@@ -280,11 +285,11 @@
       <p class="hero-prompt"><span>$</span> whoami</p>
       <h1 class="hero-name grad-text">Harshit Gautam</h1>
       <div class="hero-role-wrap">
-        <p class="hero-role">&gt; Software Engineer · AI Engineer · Unity Developer</p>
+        <p class="hero-role">&gt; Software Engineer · AI Engineer</p>
       </div>
-      <p class="hero-tagline">I turn ideas into intelligent applications — blending AI, computer vision and interactive design into products that actually solve problems.</p>
+      <p class="hero-tagline">Computer Science Engineering graduate building software and AI-powered applications with Python, REST APIs, backend services and data-driven workflows.</p>
       <div class="hero-cta">
-        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#projects" class="btn btn-primary">Explore Dev-Lens AI</a>
         <a href="#contact" class="btn btn-ghost">Get In Touch</a>
       </div>
       <div class="hero-quicklinks">
@@ -305,21 +310,21 @@
         <div class="about-text reveal">
           <p class="section-eyebrow">~/about</p>
           <h2 class="section-title" style="margin-bottom:26px;">About Me</h2>
-          <p>I'm a Computer Science Engineering graduate passionate about software development, artificial intelligence, computer vision, and game development. I enjoy turning ideas into practical products through clean code, strong logic, and user-focused design.</p>
-          <p>My work spans AI-powered applications, Python automation, web apps, Unity games, and interactive tools. I'm especially interested in projects that blend creativity with technology to solve real problems in simple, useful ways.</p>
+          <p>I'm a Computer Science Engineering graduate with hands-on experience in Python, REST APIs, API integration, HTML, CSS, SQL, Git/GitHub, backend development, debugging, and technical documentation.</p>
+          <p>I build software and AI-powered applications involving API-driven workflows, structured data processing, interactive web interfaces, backend services, computer vision, and practical automation. My flagship project, Dev-Lens AI, focuses on AI-assisted code intelligence and repository analysis. I enjoy translating requirements into working solutions and improving them through careful debugging and problem-solving.</p>
         </div>
         <div class="about-stats reveal">
           <div class="stat-card">
-            <div class="stat-num grad-text">8+</div>
-            <div class="stat-label">Shipped Projects</div>
+            <div class="stat-num grad-text">4</div>
+            <div class="stat-label">Featured Projects</div>
           </div>
           <div class="stat-card">
             <div class="stat-num grad-text">5</div>
             <div class="stat-label">Certifications</div>
           </div>
           <div class="stat-card">
-            <div class="stat-num grad-text">5</div>
-            <div class="stat-label">Core Tech Domains</div>
+            <div class="stat-num grad-text">5+</div>
+            <div class="stat-label">Enterprise IT Domains</div>
           </div>
         </div>
       </div>
@@ -331,7 +336,7 @@
       <div class="section-head reveal">
         <p class="section-eyebrow">~/stack</p>
         <h2 class="section-title">What I Work With</h2>
-        <p class="section-sub">Languages, frameworks and tools I use to bring ideas to life.</p>
+        <p class="section-sub">Languages, frameworks, databases and engineering tools reflected in my current stack.</p>
       </div>
       <div class="skills-grid" id="skills-grid"></div>
     </div>
@@ -342,7 +347,7 @@
       <div class="section-head reveal">
         <p class="section-eyebrow">~/projects</p>
         <h2 class="section-title">Featured Projects</h2>
-        <p class="section-sub">A selection of things I've built — spanning AI, computer vision, web apps and games.</p>
+        <p class="section-sub">Dev-Lens AI is the flagship project, followed by selected software and AI projects focused on backend systems, APIs, computer vision and intelligent applications.</p>
       </div>
       <div class="projects-grid" id="projects-grid"></div>
       <div class="more-projects reveal">
@@ -360,11 +365,14 @@
       <div class="timeline reveal">
         <div class="timeline-item">
           <div class="timeline-role">Data Center &amp; Network Group Intern</div>
-          <div class="timeline-company">Hitachi Systems India Pvt. Ltd.</div>
+          <div class="timeline-company">Hitachi Systems India Pvt. Ltd. · Jul 2025 – Aug 2025 · Gurugram, India</div>
           <ul>
-            <li>Gained exposure to enterprise IT infrastructure and networking.</li>
-            <li>Worked with technical teams on system operations and support tasks.</li>
-            <li>Strengthened problem-solving, communication, and teamwork skills.</li>
+            <li>Supported enterprise IT operations across 20+ infrastructure components, including Windows Server environments, network devices, storage systems, virtualization platforms, and server infrastructure.</li>
+            <li>Gained practical exposure to 5+ enterprise infrastructure domains spanning server architecture, networking, storage, virtualization, and data center operations.</li>
+            <li>Worked with 10+ technologies and concepts including TCP/IP, Ethernet, SAN, NAS, DAS, RAID, SSD, HDD, NVMe, Fibre Channel, and Intel Xeon server platforms.</li>
+            <li>Contributed to technical documentation, preventive-maintenance and infrastructure-check activities, improving documentation quality and operational accuracy.</li>
+            <li>Collaborated with senior engineers on requirement understanding, issue analysis, escalation, technical communication, and cross-team coordination.</li>
+            <li>Built practical understanding of system integration, OEM/ODM models, VDI, hypervisors, enterprise servers, and data center operations.</li>
           </ul>
         </div>
       </div>
@@ -382,7 +390,9 @@
           <h3>Education</h3>
           <div class="edu-card">
             <div class="edu-degree">Bachelor of Technology in Computer Science Engineering</div>
-            <div class="edu-school">The NorthCap University</div>
+            <div class="edu-school">The NorthCap University · Gurugram, India</div>
+            <div style="color:var(--text-dim);margin-top:10px;font-size:.9rem;">Sep 2022 – Jun 2026</div>
+            <div style="color:var(--text-dim);margin-top:12px;font-size:.9rem;line-height:1.7;">Relevant coursework: Data Structures &amp; Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems</div>
           </div>
         </div>
         <div class="reveal">
@@ -398,7 +408,7 @@
       <div class="contact-inner reveal">
         <p class="section-eyebrow" style="justify-content:center;">~/contact</p>
         <h2 class="section-title">Let's Build Something Together</h2>
-        <p class="contact-text">Have a project in mind, or just want to talk about AI, computer vision or game dev? My inbox is always open.</p>
+        <p class="contact-text">Open to software engineering opportunities, backend/API work, AI-powered applications, and engineering collaborations.</p>
         <div class="contact-actions">
           <a href="mailto:gautamharshit110@gmail.com" class="btn btn-primary">gautamharshit110@gmail.com</a>
         </div>
@@ -406,15 +416,14 @@
           <a class="icon-btn" href="https://github.com/harshit660" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
             <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.09 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.16-.02-2.11-3.2.7-3.88-1.36-3.88-1.36-.52-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.25.45-2.28 1.19-3.08-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.8 1.18 1.83 1.18 3.08 0 4.41-2.69 5.38-5.25 5.67.41.36.78 1.06.78 2.14 0 1.55-.01 2.79-.01 3.17 0 .3.2.66.79.55A10.52 10.52 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z"/></svg>
           </a>
-          <a class="icon-btn" href="#" aria-label="LinkedIn profile — add your link">
+          <a class="icon-btn" href="https://www.linkedin.com/in/harshit-gautam9277/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
             <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.44-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
           </a>
-          <!-- TODO: update the LinkedIn href above with your real profile URL -->
-          <a class="icon-btn" href="mailto:gautamharshit110@gmail.com" aria-label="Email Harshit">
+           <a class="icon-btn" href="mailto:gautamharshit110@gmail.com" aria-label="Email Harshit">
             <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
           </a>
         </div>
-        <p class="location-tag">📍 India</p>
+        <p class="location-tag">📍 Delhi, India · Open to software engineering opportunities</p>
       </div>
     </div>
   </section>
@@ -433,30 +442,27 @@
   "use strict";
 
   var SKILLS = [
-    { label:"Languages", items:["Python","C++","C#","JavaScript","SQL"] },
-    { label:"Frontend", items:["React","Next.js","HTML","CSS","Tailwind CSS"] },
-    { label:"AI / ML", items:["OpenAI","Gemini","Prompt Engineering","Computer Vision","NLP"] },
-    { label:"Game Dev", items:["Unity","Blender","OpenCV","MediaPipe","Pygame"] },
-    { label:"Tools", items:["Git","GitHub","VS Code","Firebase","Linux"] }
+    { label:"Programming Languages", items:["Python","C++","C#","SQL","C","Java"] },
+    { label:"Backend & APIs", items:["FastAPI","Node.js","Flask","REST APIs","API Integration"] },
+    { label:"Frontend", items:["React","Next.js","TypeScript","HTML","CSS","Tailwind CSS"] },
+    { label:"Databases", items:["PostgreSQL","MySQL","SQLite","Redis","Firebase","MongoDB","DynamoDB"] },
+    { label:"AI / ML", items:["NLP","Computer Vision","OpenAI API","Prompt Engineering"] },
+    { label:"Tools & Platforms", items:["Git","GitHub","Docker","Kubernetes","GitHub Actions","Linux","CI/CD"] }
   ];
 
   var PROJECTS = [
-    { title:"Interview Trainer", ext:".py", desc:"AI-powered mock interview platform that helps users practice technical and HR interviews, get feedback, and build confidence through realistic interview sessions.", tech:["Python","AI","NLP","OpenAI / Gemini"], repo:"interview-trainer" },
-    { title:"WeEducate", ext:".jsx", desc:"A learning platform designed to support students with smart learning experiences, educational tools, and AI-based assistance.", tech:["React","Next.js","Firebase","AI Integration"], repo:"Weeducate-" },
-    { title:"Car Simulation using Python", ext:".py", desc:"A Python-based car simulation project focused on interactive controls and computer-based logic for a fun, practical simulation experience.", tech:["Python","Pygame","OpenCV"], repo:"Car-simulation-using-python-" },
-    { title:"Emotions Checker", ext:".py", desc:"A real-time emotion detection project that identifies facial expressions from a webcam and classifies emotions using computer vision techniques.", tech:["Python","OpenCV","MediaPipe","AI"], repo:"Emotions-checker-" },
-    { title:"Atmos Weather App", ext:".jsx", desc:"A modern weather application that shows live weather conditions and forecasts in a clean, responsive interface.", tech:["React","API Integration","Tailwind CSS"], repo:"Atmos-weather-app-" },
-    { title:"SkillsKart", ext:".js", desc:"A career and skill showcase platform built to help users present their skills, projects, and learning journey in a professional way.", tech:["React","Firebase","JavaScript"], repo:"SkillKaart-Harshit" },
-    { title:"AimTrainer", ext:".js", desc:"An interactive reaction and aim training project designed to improve speed, accuracy, and hand-eye coordination through gameplay.", tech:["JavaScript","HTML","CSS","Canvas API"], repo:"aimtrainer-" },
-    { title:"NPC in Unity", ext:".cs", desc:"A Unity-based intelligent NPC project featuring movement, interaction, and immersive gameplay logic.", tech:["Unity","C#","AI Behavior"], repo:"npc-in-unity-" }
+    { title:"Dev-Lens AI — AI-Powered Code Intelligence Platform", ext:".py", priority:true, desc:"Flagship full-stack AI code intelligence platform with GitHub integration, repository and branch analysis, structured findings, code-location explanations, suggested fixes, and pull-request review comments.", tech:["Python","FastAPI","React","TypeScript","PostgreSQL","Redis","Docker","GitHub API","LLMs"], repo:"" },
+    { title:"AI Interview Room — AI-Powered Interview Platform", ext:".py", desc:"AI-driven interview platform supporting question generation, response processing, evaluation, and structured feedback across technical relevance, communication, and response quality.", tech:["Python","NLP","OpenAI API","Prompt Engineering"], repo:"" },
+    { title:"Emotion Detection System — Real-Time Application", ext:".py", desc:"Real-time facial emotion detection pipeline using webcam frames, face detection, landmark tracking, preprocessing, feature extraction, and emotion inference.", tech:["Python","OpenCV","MediaPipe","Machine Learning"], repo:"" },
+    { title:"Mood Sync — Emotion-Based Music Player", ext:".py", desc:"Real-time emotion-aware music application that connects webcam-based emotion predictions with emotion-based music recommendation and playback workflows.", tech:["Python","Computer Vision","Machine Learning"], repo:"" }
   ];
 
   var CERTS = [
-    "Google AI Essentials",
-    "Career Essentials in Generative AI by Microsoft and LinkedIn",
-    "Gemini Enterprise Agent Ready Badge",
-    "IBM Build an AI Agent",
-    "Tata Data Visualization"
+    "Google AI Essentials — Google / Coursera",
+    "Python for Data Science — IBM",
+    "Cloud Computing Basics (Cloud 101) — LearnQuest / Coursera",
+    "NPTEL Believer — NPTEL / IIT Madras",
+    "Generative AI Specialization — Google / Coursera"
   ];
 
   function renderSkills(){
@@ -480,13 +486,17 @@
     var frag = document.createDocumentFragment();
     PROJECTS.forEach(function(p, i){
       var card = document.createElement('article');
-      card.className = 'project-card reveal';
+      card.className = 'project-card reveal' + (p.priority ? ' priority-project' : '');
       card.style.transitionDelay = ((i%3)*0.08)+'s';
       var tags = p.tech.map(function(t){ return '<span>'+t+'</span>'; }).join('');
+      var priorityBadge = p.priority ? '<span class="priority-badge">Flagship Project</span>' : '';
+      var projectAction = p.repo
+        ? '<a href="https://github.com/harshit660/'+p.repo+'" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View '+p.title+' on GitHub">&#8599;</a>'
+        : '<a href="https://github.com/harshit660?tab=repositories" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Browse Harshit&#39;s GitHub repositories">&#8599;</a>';
       card.innerHTML =
         '<div class="project-card-top">'+
-          '<span class="file-tab">'+p.ext+'</span>'+
-          '<a href="https://github.com/harshit660/'+p.repo+'" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View '+p.title+' on GitHub">&#8599;</a>'+
+          '<div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;"><span class="file-tab">'+p.ext+'</span>'+priorityBadge+'</div>'+
+          projectAction+
         '</div>'+
         '<h3>'+p.title+'</h3>'+
         '<p>'+p.desc+'</p>'+
